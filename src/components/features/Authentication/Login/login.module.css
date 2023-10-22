@@ -1,0 +1,34 @@
+.form {
+  border: 3px solid var(--main-color);
+  max-width: 40rem;
+  padding: calc(1rem + 1vw);
+  margin-top: 5rem;
+  font-size: calc(0.6rem + 0.5vw);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.form .inputGroup {
+  display: flex;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.form .inputGroup label {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form .inputGroup input {
+  flex-grow: 1;
+  padding-left: 0.5rem;
+  background-color:#f9f9f9;
+}
+.form .title {
+  color: var(--main-color);
+}

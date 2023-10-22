@@ -1,0 +1,7 @@
+.footer {
+  background-color: #f0f2f3;
+  padding-block: 4rem ;
+}
+.footer hr {
+  color: var(--light-gray);
+}

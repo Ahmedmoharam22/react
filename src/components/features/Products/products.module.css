@@ -1,0 +1,73 @@
+
+.productImg {
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.productImg img {
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+.product > a {
+  position: relative;
+}
+.product > a {
+  border-radius: 3px;
+  display: block;
+  transition: 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product .footer svg {
+  color: var(--gold);
+}
+.product .buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.product .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+.product .buttons button {
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.product .buttons .addToCart {
+  background-color: var(--main-color);
+  color: #fff;
+  transform: translateX(-100%);
+}
+.product .buttons .addToWishlist {
+  background-color: var(--red);
+  color: red;
+  transform: translateX(110%);
+}
+.product:hover .buttons .addToCart,
+.product:hover .buttons .addToWishlist {
+  opacity: 1;
+  transform: translateX(0);
+}
+.product > a:hover {
+  box-shadow: 0 0 0 1px var(--main-color), 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.product .text {
+  padding: 0.5rem;
+  flex-grow: 1;
+}
+.product .text .footer {
+  margin-top: auto;
+}

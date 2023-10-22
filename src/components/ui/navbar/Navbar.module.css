@@ -1,0 +1,17 @@
+:global(.active) {
+  color: var(--main-color) !important;
+  font-weight: 500;
+}
+:global(header){
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.socials a {
+  color: var(--dark-gray);
+}
+.socials button svg {
+  font-size: 1.25rem;
+}
+.socials button {
+  background-color: var(--main-color) !important;
+  color: #fff ;
+}
